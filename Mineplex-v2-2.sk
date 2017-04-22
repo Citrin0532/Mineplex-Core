@@ -651,7 +651,7 @@ function openTreasure(p: player , c: number , l: number) :: number:
 		set {mineplex.inchest.%{_p}%} to {_c}
 		set block at {mineplex.chestpoint.%{_l}%} to air
 		teleport {_p} to {mineplex.chestpoint.%{_l}%}
-		send "&9Treasure> &7Choose 4 Chests to Open" to {_p}
+		send "&9Treasure> &7Choose 1 Chests to Open" to {_p}
 		set block at {mineplex.chestpoint.%{_l}%.sub.1} to chest
 		wait 1 second
 		set block at {mineplex.chestpoint.%{_l}%.sub.2} to chest
@@ -685,7 +685,7 @@ function openTreasure(p: player , c: number , l: number) :: number:
 		set {mineplex.inchest.%{_p}%} to {_c}
 		set block at {mineplex.chestpoint.%{_l}%} to air
 		teleport {_p} to {mineplex.chestpoint.%{_l}%}
-		send "&9Treasure> &7Choose 4 Chests to Open" to {_p}
+		send "&9Treasure> &7Choose 1 Chests to Open" to {_p}
 		set block at {mineplex.chestpoint.%{_l}%.sub.1} to chest
 		wait 1 second
 		set block at {mineplex.chestpoint.%{_l}%.sub.2} to chest
@@ -719,7 +719,7 @@ function openTreasure(p: player , c: number , l: number) :: number:
 		set {mineplex.inchest.%{_p}%} to {_c}
 		set block at {mineplex.chestpoint.%{_l}%} to air
 		teleport {_p} to {mineplex.chestpoint.%{_l}%}
-		send "&9Treasure> &7Choose 4 Chests to Open" to {_p}
+		send "&9Treasure> &7Choose 1 Chests to Open" to {_p}
 		set block at {mineplex.chestpoint.%{_l}%.sub.1} to ender chest
 		wait 1 second
 		set block at {mineplex.chestpoint.%{_l}%.sub.2} to ender chest
